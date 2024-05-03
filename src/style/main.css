@@ -14,6 +14,7 @@ body {
 .header{
   background-color: yellow;
   height: 10vh;
+  padding: 0 50px;
   
 }
 /* 비주얼 */
@@ -25,17 +26,17 @@ body {
 /* 메인 콘텐츠 */
 .main{
   background-color: skyblue;
-  height: 60vh;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: ;
-  align-items: ;
+  /* height: 60vh; */
+
 }
 
 .group{
   border: 1px solid red;
 }
 
+.group1{
+  width: 250;
+}
 
 
 
