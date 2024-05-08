@@ -1,5 +1,9 @@
+@import url(./theme.css);
+
 :root {
   --container-size: 940px;
+  --primay: var(--green);
+  --secondary: var(--orange-100);
 }
 
 /* 기본 박스 사이징 설정 */
@@ -14,6 +18,7 @@ body {
   background-image:  url(/images/bg_flower.png), linear-gradient(to bottom, #aaa 0%, #ccc 30%, #eee 50%, #fff 100%);
   background-repeat: no-repeat;
   background-position: 50% 0, 0 0;
+  margin: 0;
 }
 
 .header,
@@ -27,9 +32,9 @@ body {
 
 /* 헤더 */
 .header {
-  background-color: #fff;
+  background-color: var(--primay);
   height: 120px;
-  padding: 0 50px;
+  padding: 0 28px;
   border-radius: 0 0 15px 15px;
   position: relative;
 }
@@ -40,6 +45,52 @@ body {
   position: absolute;
   top: 45px;
   left: 60px;
+  margin: 0;
+}
+
+/* 텍스트 링크 모음 */
+
+.member-service {
+  --font-size: 0.875rem;
+  background-color: yellow;
+  translate: 8px 0;
+  font-size: 0;
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin: 0;
+  text-align: right;
+  
+  li {
+    display: inline-block;
+    margin: 0;
+    font-size: var(--font-size);
+    
+    a {
+      display: inherit;
+      padding: 8px 8px 8px 4px;
+      font-variant: small-caps;
+      margin: 0;
+      text-transform: uppercase;
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /* a:link{
+      color: green;
+    }
+
+    a:visited{
+      color: silver;
+    }
+
+    a:active{
+      color: red;
+    }
+
+    a:hover, a:focus{
+      color: yellow
+    } */
+  }
 }
 
 /* 비주얼 */
