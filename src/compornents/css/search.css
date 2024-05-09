@@ -1,0 +1,28 @@
+@import url(/style/reset.css);
+@import url(/style/theme.css);
+@import url(/style/base.css);
+
+
+
+
+
+.search-group{
+  background-color: #ccc;
+}
+
+.form-input{
+  border-radius: 10px;
+}
+
+
+/* 검색 폼 레이아웃 스타일링 */
+.search-group{
+  background: yellow;
+  margin: 50px;
+  background-image: linear-gradient(to bottom, #ccc, #fff);
+  border-bottom-color: 1px solid #aaa;
+  padding: ;
+  border-radius: ;
+  display: flex;
+  flex-flow: ;
+}
